@@ -1,8 +1,8 @@
 function checkValid() {
     var input = document.getElementById("nhapngaysinh");
-    if (input.value == "21/11/2003") {
+    if (input.value == "05/03/2010") {
         showImage('./assets/texts/tunganh.txt');
-    } else if (input.value == "26/11/2003") {
+    } else if (input.value == "05/03/2010") {
         showImage("assets/texts/daothanhdung.txt");
     } else {
         alert("Ngày sinh không chính xác!");
